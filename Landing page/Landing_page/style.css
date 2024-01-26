@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box ;
+    cursor:pointer;
+    font-family: sans-serif;
+}
+body{
+    width:100%;
+    min-height: 100vh;
+    background-color: black;
+
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    color:white;
+    background-color: rgba(222, 255, 10, 0.762);
+}
+nav li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-weight: 600;
+    transition: all 0.3s ease 0s;
+}
+nav li :hover{
+    color:black;
+}
+.main{
+    width: 100%;
+    display: flex;
+}
+.content{
+    width: 50%;
+    margin-top: 8%;
+    margin-left: 5%;
+    color: white;
+}
+.content h1{
+    font-size: 80px;
+    margin-bottom: 1%;
+    letter-spacing: 8px;
+}
+.content h3{
+    font-size: 25px;
+    margin-bottom: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+span{
+    color: yellow;
+}
+.content p{
+    font-size: 20px;
+    margin-bottom: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+button{
+    padding: 15px 30px;
+    background: transparent;
+    color: white;
+    font-size: 17px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+
+button:hover{
+    background: rgb(255,10,10);
+}
+.image{
+    width: 55%; 
+}
+
+.footer p{
+    color: black;
+    text-align:center;
+    display:flex;
+    
+}
+.footer{
+    
+    background-color: rgba(222, 255, 10, 0.762);
+    padding: 10px ;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+
+}
+.designer{
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgb(80, 75, 75);
+    margin: 0px 5px;
+}
